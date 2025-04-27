@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all 0.3s ease;
+}
+
+.white-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.black-theme {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.theme-toggle {
+    padding: 10px 20px;
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.black-theme .theme-toggle {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
+}
